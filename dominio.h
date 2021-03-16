@@ -7,7 +7,7 @@ using namespace std;
 class Codigo {
 
 private:
-    int valor=10;
+    int valor;
     void validar(int);
 
 public:
@@ -22,7 +22,7 @@ class Classe {
 
 private:
     int valor;
-    void validar(int)
+    void validar(int);
 
 public:
     void setValor(int);
@@ -61,7 +61,7 @@ public:
 class Data {
 
 private:
-    int dia,mes,ano;
+    int valor;
     void validar(int);
 
 public:
@@ -100,7 +100,7 @@ public:
 class Email {
 
 private:
-    string nome, domin;
+    string valor;
     void validar(string);
 
 public:
@@ -126,7 +126,7 @@ public:
 class Telefone {
 
 private:
-    int ddd,valor
+    int valor;
     void validar(int);
 
 public:
