@@ -7,7 +7,7 @@ using namespace std;
 class Codigo {
 
 private:
-    int valor;
+    int valor=10;
     void validar(int);
 
 public:
