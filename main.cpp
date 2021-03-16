@@ -8,9 +8,9 @@ int main() {
 
     int teste;
 
-    Codigo *cod = new Codigo();
-    cod->setValor(11);
-    teste = cod->getValor();
+    Classe *cla = new Classe();
+    cla->setTipo(0);
+    teste = cla->getTipo();
 
     cout << teste;
 

@@ -7,13 +7,13 @@ using namespace std;
 class Codigo {
 
 private:
-    int valor;
-    void validar(int);
+    string cod;
+    void validar(string);
 
 public:
-    void setValor(int);
-    int getValor() const {
-        return valor;
+    void setCod(string);
+    string getCod() const {
+        return cod;
     }
 
 };
@@ -21,13 +21,13 @@ public:
 class Classe {
 
 private:
-    int valor;
+    int tipo;
     void validar(int);
 
 public:
-    void setValor(int);
-    int getValor() const {
-        return valor;
+    void setTipo(int);
+    int getTipo() const {
+        return tipo;
     }
 
 };
@@ -35,13 +35,13 @@ public:
 class Descricao {
 
 private:
-    string valor;
+    string des;
     void validar(string);
 
 public:
-    void setValor(string);
-    string getValor() const {
-        return valor;
+    void setDes(string);
+    string getDes() const {
+        return des;
     }
 };
 

@@ -1,11 +1,12 @@
 # depslib dependency file v1.0
-1615896983 source:c:\users\victor\documents\github\pj-aluguel\dominio.cpp
+1615898632 source:c:\users\victor\documents\github\pj-aluguel\dominio.cpp
 	"dominio.h"
+	<cstring>
 
-1615897343 c:\users\victor\documents\github\pj-aluguel\dominio.h
+1615902712 c:\users\victor\documents\github\pj-aluguel\dominio.h
 	<stdexcept>
 
-1615897297 source:c:\users\victor\documents\github\pj-aluguel\main.cpp
+1615898728 source:c:\users\victor\documents\github\pj-aluguel\main.cpp
 	<iostream>
 	"dominio.h"
 
